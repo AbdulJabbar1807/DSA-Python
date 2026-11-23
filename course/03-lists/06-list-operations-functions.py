@@ -19,8 +19,10 @@ while (True):
     inp = input("Enter the element: ")
     if inp == "done": break
     nums.append(float(inp))
-
+    # total += float(inp)
+    # count += 1
     
+# average = total/count
 average = sum(nums)/len(nums)
 
 print(f"Average: {average}")
